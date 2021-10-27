@@ -22,3 +22,9 @@ export class HelloCdkStack extends cdk.Stack {
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+
+
+### Watch Screencast
+
+* [Watch on YouTube](https://www.youtube.com/watch?v=-AWZAAjtH9o)
+* [Watch on O'Reilly](https://learning.oreilly.com/videos/hello-world-iac/10262021VIDEOPAIML/10262021VIDEOPAIML-c1_s0/)
