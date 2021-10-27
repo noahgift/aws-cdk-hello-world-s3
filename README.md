@@ -1,8 +1,18 @@
-# Welcome to your CDK TypeScript project!
+## CDK Hello World S3
 
-This is a blank project for TypeScript development with CDK.
+```
+import * as cdk from '@aws-cdk/core';
+import * as s3 from '@aws-cdk/aws-s3';
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+export class HelloCdkStack extends cdk.Stack {
+  constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
+    super(scope, id, props);
+
+    // This creates the template that makes my bucket
+    const bucket = new s3.Bucket(this, 'HelloWorldCDKFuntime');
+  }
+}
+```
 
 ## Useful commands
 
